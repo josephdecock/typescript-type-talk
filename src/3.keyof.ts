@@ -12,11 +12,8 @@ var name = get(joe, 'name');
 // TODO - Try making typos ("naem") and observe the type error
 
 // Types can be single values
-type Foo = 'Foo';
-type Bar = 'Bar';
-
-// You can also union types together
-type FooBar = Foo | Bar;
+type K1 = 'name';
+type K2 = 'birthday';
 
 // You can refer to the names of the properties of an object as a type.
 // I want to get the keys of the Person type, that is, the type
